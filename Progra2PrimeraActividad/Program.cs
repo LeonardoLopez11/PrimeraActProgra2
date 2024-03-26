@@ -10,9 +10,10 @@ namespace Progra2PrimeraActividad
     {
         static void Main()
         {
-            int n = 10;
 
-            
+            int n = 10;
+            int contador = 1;
+
             if (n > 0)
             {
                 Console.WriteLine("El número es positivo.");
@@ -52,6 +53,13 @@ namespace Progra2PrimeraActividad
             {
                 Console.WriteLine(i);
             }
+            
+            while (contador <= 5)
+            {
+                Console.WriteLine(contador);
+                contador++;
+            }
+
         }
 
     }
