@@ -48,6 +48,10 @@ namespace Progra2PrimeraActividad
                     Console.WriteLine("Ingresa otro número");
                     break;
             }
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
 
     }
