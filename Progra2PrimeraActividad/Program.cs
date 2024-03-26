@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace Progra2PrimeraActividad
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            int n = 10;
+
+            
+            if (n > 0)
+            {
+                Console.WriteLine("El número es positivo.");
+            }
+            else
+            {
+                Console.WriteLine("El número es negativo o cero.");
+            }
         }
     }
 }
